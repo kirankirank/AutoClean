@@ -1,0 +1,39 @@
+22-11-2022 16:49:14.34 - INFO - Started validation of input parameters...
+22-11-2022 16:49:14.34 - INFO - Completed validation of input parameters
+22-11-2022 16:49:14.34 - INFO - Started handling of duplicates... Method: "AUTO"
+22-11-2022 16:49:14.35 - DEBUG - 0 missing values found
+22-11-2022 16:49:14.35 - INFO - Completed handling of duplicates in 0.01145 seconds
+22-11-2022 16:49:14.35 - INFO - Started handling of missing values...
+22-11-2022 16:49:14.35 - INFO - Found a total of 290 missing value(s)
+22-11-2022 16:49:14.35 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+22-11-2022 16:49:14.55 - DEBUG - LINREG imputation of 7 value(s) succeeded for feature "CLMSEX"
+22-11-2022 16:49:14.62 - DEBUG - LINREG imputation of 11 value(s) succeeded for feature "CLMINSUR"
+22-11-2022 16:49:14.67 - DEBUG - LINREG imputation of 19 value(s) succeeded for feature "SEATBELT"
+22-11-2022 16:49:14.72 - DEBUG - LINREG imputation of 173 value(s) succeeded for feature "CLMAGE"
+22-11-2022 16:49:14.75 - DEBUG - KNN imputation of 5 value(s) succeeded for feature "CLMSEX"
+22-11-2022 16:49:14.76 - DEBUG - KNN imputation of 30 value(s) succeeded for feature "CLMINSUR"
+22-11-2022 16:49:14.77 - DEBUG - KNN imputation of 29 value(s) succeeded for feature "SEATBELT"
+22-11-2022 16:49:14.79 - DEBUG - KNN imputation of 16 value(s) succeeded for feature "CLMAGE"
+22-11-2022 16:49:14.79 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+22-11-2022 16:49:14.79 - INFO - Completed handling of missing values in 0.442776 seconds
+22-11-2022 16:49:14.79 - INFO - Started handling of outliers... Method: "WINZ"
+22-11-2022 16:49:14.94 - DEBUG - Outlier imputation of 59 value(s) succeeded for feature "CASENUM"
+22-11-2022 16:49:15.25 - DEBUG - Outlier imputation of 120 value(s) succeeded for feature "CLMINSUR"
+22-11-2022 16:49:15.36 - DEBUG - Outlier imputation of 22 value(s) succeeded for feature "SEATBELT"
+22-11-2022 16:49:15.39 - DEBUG - Outlier imputation of 3 value(s) succeeded for feature "CLMAGE"
+22-11-2022 16:49:15.66 - DEBUG - Outlier imputation of 66 value(s) succeeded for feature "LOSS"
+22-11-2022 16:49:15.66 - INFO - Completed handling of outliers in 0.868568 seconds
+22-11-2022 16:49:15.66 - INFO - Started conversion of DATETIME features... Granularity: s
+22-11-2022 16:49:15.66 - INFO - Completed conversion of DATETIME features in 0.0003 seconds
+22-11-2022 16:49:15.66 - INFO - Started encoding categorical features... Method: "AUTO"
+22-11-2022 16:49:15.66 - INFO - Completed encoding of categorical features in 1e-06 seconds
+22-11-2022 16:49:15.66 - INFO - Started feature type conversion...
+22-11-2022 16:49:15.67 - DEBUG - Conversion to type INT succeeded for feature "CASENUM"
+22-11-2022 16:49:15.67 - DEBUG - Conversion to type INT succeeded for feature "ATTORNEY"
+22-11-2022 16:49:15.67 - DEBUG - Conversion to type INT succeeded for feature "CLMSEX"
+22-11-2022 16:49:15.67 - DEBUG - Conversion to type INT succeeded for feature "CLMINSUR"
+22-11-2022 16:49:15.67 - DEBUG - Conversion to type INT succeeded for feature "SEATBELT"
+22-11-2022 16:49:15.68 - DEBUG - Conversion to type INT succeeded for feature "CLMAGE"
+22-11-2022 16:49:15.68 - DEBUG - Conversion to type FLOAT succeeded for feature "LOSS"
+22-11-2022 16:49:15.68 - INFO - Completed feature type conversion for 7 feature(s) in 0.013946 seconds
+22-11-2022 16:49:15.68 - INFO - AutoClean process completed in 1.347651 seconds
